@@ -1,0 +1,60 @@
+body{
+    background-color: aquamarine;
+}
+.create-form{
+    text-align: center
+}
+
+textarea{
+  width: 300px;
+  height: 150px;
+}
+
+h1{
+    text-align: center
+}
+.img_container > i{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: calc(50% - 10px); 50% - 3/4 of icon height */
+}
+
+.fa-hamburger {
+    width: 100px!important;
+    height: 100px!important;
+}
+#ready{
+    float: right;
+    position: absolute;
+    top: 10px;
+    left: 75%;
+
+}
+#prepare{
+    position: absolute;
+    top: 10px;
+    right: 75%;
+}
+.devour:hover{
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+.addBurger:hover{
+    text-align: center;
+    border-radius: 12px!important;
+    background-color: black!important;
+    color: white!important;
+    margin: 5px!important;
+}
+li{
+    margin: 10px;
+    font-size: larger;
+}
+#menu{
+   position: relative;
+   top: 155px;
+}
