@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 
-// Import the model (cat.js) to use its database functions.
+
 const burgers = require("../models/burgers.js");
 
 router.get("/", function(req, res){
