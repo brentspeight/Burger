@@ -33,7 +33,9 @@ function objToSql(ob) {
 const orm = {
   all: function (tableInput, cb) {
     var queryString = "SELECT * FROM " + tableInput + ";";
+    console.log(queryString)
     connection.query(queryString, function (err, result) {
+      console.log("ERROR", err, "DATA", result)
       if (err) {
         throw err;
       }
