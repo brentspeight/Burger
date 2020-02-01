@@ -11,3 +11,7 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 The app will store every burger in a database, whether devoured or not.
 
 Types code used in this application: MySQL, Node, Express, Handlebars and ORM.
+
+Below is the link to the Burger Page. Click and see what it looks like!
+
+https://brentspeight.github.io/Burger/
